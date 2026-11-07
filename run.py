@@ -1,6 +1,6 @@
 """Token-free BETLOG updater bootstrap. Credentials remain in runner memory."""
 import os,sys,io,json,urllib.request,urllib.parse,hashlib
-EXPECTED_SHA256='c1dca5244b53828e39dd33e933f8de84eee2d78fd103bfa4cd4e01f50b828e4a'
+EXPECTED_SHA256='66e1b537cf5d1e4bb420cff33212f1e0c26318a69120cb29ee9d0d7db9c51dc9'
 origin=os.environ.get('BETLOG_SITE_URL','').rstrip('/')
 token=os.environ.get('BETLOG_SITE_TOKEN','')
 u=urllib.parse.urlparse(origin)
